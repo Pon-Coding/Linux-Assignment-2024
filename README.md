@@ -15,13 +15,13 @@ Steps:
 # 2. Make the script executable:
 - Open a terminal in the directory where you saved the script.
 - Run the following command to grant execute permissions:
-
+  
           chmod +x MyInfo.sh
 
 # 3. Run the script with options:
 - Use the following format to execute the script:
 
-      ./MyInfo.sh <option> <argument>
+          ./MyInfo.sh <option> <argument>
 
 - Replace <option> with one of the following options:
   + U or USER: To get information about a user.
@@ -33,14 +33,14 @@ Examples:
 
 => To get information about the user "john":
 
-    ./MyInfo.sh U john
+          ./MyInfo.sh U john
 
 
 => To get information about the host "example.com":
 
-    ./MyInfo.sh HOST example.com
+          ./MyInfo.sh HOST example.com
 
 => To get information about the file "/etc/passwd":
 
-    ./MyInfo.sh FILE /etc/passwd
+          ./MyInfo.sh FILE /etc/passwd
 
