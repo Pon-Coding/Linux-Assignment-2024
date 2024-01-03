@@ -5,8 +5,8 @@ This script provides information about users, hosts, and files/directories on a 
 
 Prerequisites:
 
-    -> Ensure you have a Bash shell environment.
-    -> The script requires standard Linux utilities like getent, awk, last, traceroute, whois, ping, and stat. These are usually pre-installed on most Linux distributions.
+-> Ensure you have a Bash shell environment.
+-> The script requires standard Linux utilities like getent, awk, last, traceroute, whois, ping, and stat. These are usually pre-installed on most Linux distributions.
 
 Steps:
 
@@ -31,17 +31,16 @@ Steps:
 
 Examples:
 
->> To get information about the user "john":
+=> To get information about the user "john":
 
     ./MyInfo.sh U john
 
 
->> To get information about the host "example.com":
+=> To get information about the host "example.com":
 
     ./MyInfo.sh HOST example.com
 
-
->> To get information about the file "/etc/passwd":
+=> To get information about the file "/etc/passwd":
 
     ./MyInfo.sh FILE /etc/passwd
 
