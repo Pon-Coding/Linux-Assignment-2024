@@ -10,24 +10,24 @@ Prerequisites:
 
 Steps:
 
-1. Download the script:
+#1. Download the script:
     - Clone this repository or download the MyInfo.sh file directly.
-2. Make the script executable:
+#2. Make the script executable:
     - Open a terminal in the directory where you saved the script.
     - Run the following command to grant execute permissions:
 
             chmod +x MyInfo.sh
 
-3. Run the script with options:
-    - Use the following format to execute the script:
+#3. Run the script with options:
+- Use the following format to execute the script:
 
             ./MyInfo.sh <option> <argument>
 
-    - Replace <option> with one of the following options:
-      + U or USER: To get information about a user.
-      + I, IP, H, or HOST: To get information about a host or IP address.
-      + F, FILE, P, or PATH: To get information about a file or directory.
-    - Replace <argument> with the specific username, hostname/IP, or file/pathname you want to query.
+- Replace <option> with one of the following options:
+  + U or USER: To get information about a user.
+  + I, IP, H, or HOST: To get information about a host or IP address.
+  + F, FILE, P, or PATH: To get information about a file or directory.
+- Replace <argument> with the specific username, hostname/IP, or file/pathname you want to query.
 
 Examples:
 
